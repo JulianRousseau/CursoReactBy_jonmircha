@@ -9,6 +9,10 @@ import Propiedades from "./components/Propiedades";
 import Estados from "./components/Estados";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
+import {
+  EventosEnClases,
+  EventosEnClasesES7,
+} from "./components/EventosEnClases";
 
 function App() {
   return (
@@ -58,6 +62,10 @@ function App() {
           <hr />
 
           <RenderizadoElementos />
+          <hr />
+
+          <EventosEnClases />
+          <EventosEnClasesES7 />
         </header>
       </div>
     </>
