@@ -12,6 +12,8 @@ import RenderizadoElementos from "./components/RenderizadoElementos";
 import {
   EventosEnClases,
   EventosEnClasesES7,
+  EventosPersonalisado,
+  MasSobreEventos,
 } from "./components/EventosEnClases";
 
 function App() {
@@ -66,6 +68,8 @@ function App() {
 
           <EventosEnClases />
           <EventosEnClasesES7 />
+          <MasSobreEventos />
+          <EventosPersonalisado />
         </header>
       </div>
     </>
