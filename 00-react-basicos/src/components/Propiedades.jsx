@@ -13,7 +13,7 @@ import React from "react";
 export default function Propiedades(props) {
   return (
     <>
-      Trabajando con props
+      <h2>Props</h2>
       <p>{props.textoEj}</p>
       <p>{props.texto}</p>
       <p>{props.numero}</p>

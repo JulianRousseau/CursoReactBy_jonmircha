@@ -7,6 +7,7 @@ import ComponenteFuncional from "./components/ComponenteFuncional";
 import ComponenteFuncionalArrow from "./components/ComponenteFuncionalArrow";
 import Propiedades from "./components/Propiedades";
 import Estados from "./components/Estados";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
           <hr />
 
           <Estados />
+          <hr />
+
+          <RenderizadoCondicional />
         </header>
       </div>
     </>

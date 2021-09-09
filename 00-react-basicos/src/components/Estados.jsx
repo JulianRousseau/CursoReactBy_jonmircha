@@ -19,6 +19,7 @@ export default class Estados extends Component {
   render() {
     return (
       <>
+        <h2>Estados</h2>
         <p>{this.state.texto}</p>
         <p>{this.state.contador}</p>
         <ComponenteHijo estadoDelPadre={this.state.contador} />
