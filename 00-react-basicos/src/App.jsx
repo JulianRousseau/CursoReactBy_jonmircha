@@ -6,6 +6,7 @@ import ComponenteDeClase from "./components/ComponenteDeClase";
 import ComponenteFuncional from "./components/ComponenteFuncional";
 import ComponenteFuncionalArrow from "./components/ComponenteFuncionalArrow";
 import Propiedades from "./components/Propiedades";
+import Estados from "./components/Estados";
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
               <ComponenteFuncional texto="soy un componente pasado como prop" />
             }
           />
+          <hr />
+
+          <Estados />
         </header>
       </div>
     </>
