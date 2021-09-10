@@ -16,6 +16,7 @@ import {
   MasSobreEventos,
 } from "./components/EventosEnClases";
 import Padre from "./components/ComunicacionComponentes";
+import CicloDeVida from "./components/CicloDeVida";
 
 function App() {
   return (
@@ -74,6 +75,9 @@ function App() {
           <hr />
 
           <Padre />
+          <hr />
+
+          <CicloDeVida />
         </header>
       </div>
     </>
