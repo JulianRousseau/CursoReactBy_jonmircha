@@ -15,6 +15,7 @@ import {
   EventosPersonalisado,
   MasSobreEventos,
 } from "./components/EventosEnClases";
+import Padre from "./components/ComunicacionComponentes";
 
 function App() {
   return (
@@ -70,6 +71,9 @@ function App() {
           <EventosEnClasesES7 />
           <MasSobreEventos />
           <EventosPersonalisado />
+          <hr />
+
+          <Padre />
         </header>
       </div>
     </>
