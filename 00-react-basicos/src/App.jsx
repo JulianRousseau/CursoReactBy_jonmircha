@@ -17,6 +17,7 @@ import {
 } from "./components/EventosEnClases";
 import Padre from "./components/ComunicacionComponentes";
 import CicloDeVida from "./components/CicloDeVida";
+import AjaxApis from "./components/AjaxApis";
 
 function App() {
   return (
@@ -77,7 +78,15 @@ function App() {
           <Padre />
           <hr />
 
-          <CicloDeVida />
+          {false ? (
+            <CicloDeVida />
+          ) : (
+            <p>Ciclo de vida (comentado,para no ensuciar consola)</p>
+          )}
+
+          <hr />
+
+          <AjaxApis />
         </header>
       </div>
     </>

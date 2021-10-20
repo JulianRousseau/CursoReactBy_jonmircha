@@ -9,11 +9,11 @@ export default class Estados extends Component {
     };
 
     /* ------------------------- Intervalo comentado para evitar un warning ------------------------- */
-    // setInterval(() => {
-    //   this.setState({
-    //     contador: this.state.contador + 1,
-    //   });
-    // }, 1000);
+    setInterval(() => {
+      this.setState({
+        contador: this.state.contador + 1,
+      });
+    }, 1000);
   }
 
   render() {

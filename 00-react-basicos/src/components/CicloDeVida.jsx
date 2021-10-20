@@ -80,9 +80,6 @@ export default class CicloDeVida extends Component {
 }
 
 class Reloj extends Component {
-  constructor(props) {
-    super(props);
-  }
   /* --------------------- se ejecuta cuando el componente se desmonta del DOM -------------------- */
   componentWillUnmount() {
     console.log(3, "El componente se desmonto del DOM");
