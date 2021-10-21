@@ -18,6 +18,8 @@ import {
 import Padre from "./components/ComunicacionComponentes";
 import CicloDeVida from "./components/CicloDeVida";
 import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHook from "./components/ScrollHook";
 
 function App() {
   return (
@@ -87,6 +89,12 @@ function App() {
           <hr />
 
           <AjaxApis />
+          <hr />
+
+          <ContadorHooks />
+          <hr />
+
+          <ScrollHook />
         </header>
       </div>
     </>
