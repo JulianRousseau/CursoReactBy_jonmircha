@@ -21,6 +21,8 @@ import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from "./components/ContadorHooks";
 import ScrollHook from "./components/ScrollHook";
 import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPesonalizados from "./components/HooksPersonalizados";
 
 function App() {
   return (
@@ -28,21 +30,16 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-
           <Componente1 />
           <hr />
-
           <ComponenteDeClase texto={"soy un componente de clase"} />
           <hr />
-
           <ComponenteFuncional texto={"soy un componente funcional"} />
           <hr />
-
           <ComponenteFuncionalArrow
             texto={"soy un componente funcional echo con arrow"}
           />
           <hr />
-
           <Propiedades
             texto="String"
             numero={23}
@@ -62,43 +59,36 @@ function App() {
             }
           />
           <hr />
-
           <Estados />
           <hr />
-
           <RenderizadoCondicional />
           <hr />
-
           <RenderizadoElementos />
           <hr />
-
           <EventosEnClases />
           <EventosEnClasesES7 />
           <MasSobreEventos />
           <EventosPersonalisado />
           <hr />
-
           <Padre />
           <hr />
-
           {false ? (
             <CicloDeVida />
           ) : (
             <p>Ciclo de vida (comentado,para no ensuciar consola)</p>
           )}
-
           <hr />
-
           <AjaxApis />
           <hr />
-
           <ContadorHooks />
           <hr />
-
           <ScrollHook />
           <hr />
-
           <RelojHooks />
+          <hr />
+          <AjaxHooks />
+          <hr />
+          <HooksPesonalizados />
         </header>
       </div>
     </>
