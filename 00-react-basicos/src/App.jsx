@@ -25,6 +25,9 @@ import AjaxHooks from "./components/AjaxHooks";
 import HooksPesonalizados from "./components/HooksPersonalizados";
 import Referencias from "./components/Referencias";
 import Formularios, { FormulariosV2 } from "./components/Formularios";
+import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponentesEstilizados";
+import StyledComponent from "./components/Styled-Components/StyledComponent";
 
 function App() {
   return (
@@ -97,6 +100,12 @@ function App() {
           <Formularios />
           <hr />
           <FormulariosV2 />
+          <hr />
+          <Estilos />
+          <hr />
+          <ComponentesEstilizados />
+          <hr />
+          <StyledComponent />
         </header>
       </div>
     </>
